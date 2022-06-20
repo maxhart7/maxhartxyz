@@ -1,0 +1,14 @@
+.hero {
+    background: linear-gradient(-45deg, #AFC7BD 0%, #748D83 100%); 
+    padding: 280px 0 100px;
+
+    h1 {
+        margin: .25rem 0 1rem;
+    }
+}
+
+.logged-in.admin-bar {
+    .hero {
+        padding-top: 312px;
+    }
+}

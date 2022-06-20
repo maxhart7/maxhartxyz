@@ -1,0 +1,33 @@
+@import 'variables';
+@import 'mixins';
+@import 'grid';
+@import 'typography';
+@import 'modifiers';
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--clr-off-white);
+    color: var(--clr-charcoal);
+    font-family: var(--font-secondary);
+    font-size: 14px;
+    font-weight: 500;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6em;
+    margin: 0;
+    max-width: 100%;
+    min-height: 100%;
+
+    @include bp(md) {
+      font-size: 15px;
+    }
+  
+    @include bp(lg) {
+      font-size: 18px;
+    }
+}
